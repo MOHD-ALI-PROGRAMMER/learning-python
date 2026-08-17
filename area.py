@@ -1,6 +1,6 @@
-hypo:int=4
-base:int=5
-height:int=(hypo**2)-(base**2)
+hypo:int=5
+base:int=4
+height:int=((hypo**2)-(base**2))**0.5
 print(height)
-Area=(1/2*base*height)
+Area=(0.5*base*height)
 print("Area=",Area,"meter square")
