@@ -1,4 +1,5 @@
-radius:float=2.8
-height:int=25
-volume=((3.14)*(radius**2)*height)
-print("volume=",volume,"meter cube")
+AB:int=10
+BC:float=33.33
+CD:int=18
+X=(2*((AB*BC)+(BC*CD)+(CD*AB)))
+print("X=",X,"meter cube")
