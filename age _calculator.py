@@ -4,5 +4,5 @@ birth_year= int(input("enter your birth year"))
 current_year= 2026
 age= (current_year - birth_year)
 
-print("assalam mualaikum",name)
+print("assalammualaikum",name)
 print("you are",age,"old")
