@@ -1,5 +1,5 @@
-number1 = float(input("enter your number: "))
-number2= float(input("enter your number: "))
+number1 = float(input("ENTER YOUR NUMBER: "))
+number2= float(input("ENTER YOUR NUMBER: "))
 
 print("1. multiply")
 print("2. divide")
@@ -25,4 +25,4 @@ elif choice == 4:
      print("YOUR ANSWER IS:", substarct)
 
 else:
-     print("INVALID OPTION")
+     print("INVALID OPERATION SIR")
