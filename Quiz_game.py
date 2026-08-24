@@ -1,50 +1,53 @@
 score = 0
-playing = True
 
-while playing:
+print("\n=====QUIZ GAME=====")
 
-    print("\n========KNOWLEDGE QUIZ=========")
-    
-    answer = input("Q1. A guy emotionally atatched to other guy what him called?\n"
-                        "a. good boy\n"
-                        "b. bad boy\n"
-                        "c. gay\n"
-                        "your answer is: ")
-    
-    if answer == "c":
-        print(" correct")
-        score = score + 1
-    else:
-        print("incorrect, you need some knowledge")
-        
-        answer = input("Q2. If you see a stick who's width is 5cm so, what you do with te stick?\n"
-                        "a. sit on the stick\n"
-                        "b. break the stick\n"
-                        "c. through the stick\n"
-                        "your answer is: ")
+science = input("which chemical element has the highest melting point of all pure elements ?\n"
+                "a. Tungsten\n"
+                "b. Carbon\n"
+                "c.Rhenium\n"
+                "d. Osmium\n"
+                "your answer is: ")
 
-    if answer == "a":
-        print("correct")
-        score = score + 1
-    
-    else:
-        print("incorrect, you need some knowledge")
+if science == "b":
+    print("correct")
+    score = score + 1
 
-        answer = input("Q3. If you see your friend who's more pretty then girl's so, what you do wit her?\n"
-                        "a. beat him\n"
-                        "b. sex with him\n"
-                        "c. only imagining him\n"
-                        "your answer is: ")
-    
-    if answer == "b":
-        print("correct,you're such a my son")
-        score = score + 1
-    
-    else:
-        print("incorrect, you need some knowledge")
+else:
+    print("Incorrect answer")
 
-        print("your score is:", score,"/3")
 
-        playing = False
+geography = input("what is the deepest known point in the Earth's oceans?\n"
+                "a. puerto rico trench\n"
+                "b. challenger deep\n"
+                "c. java trench\n"
+                "d. mariana trench\n"
+                "your answe is: ")
 
-print("Thank you for playing ;)")
+if geography == "b":
+    print("correct")
+    score = score + 1
+
+else:
+    print("Incorrect answer")
+
+
+geography = input("which country has the most time zones in the world?\n"
+                "a. russia\n"
+                "b. us\n"
+                "c. france\n"
+                "d. uk\n"
+                "your answer is: ")
+
+if geography == "c":
+    print("correct")
+    score = score + 1 
+
+else:
+    print("incorrect answer")
+
+
+print("your score is:", score,"/3")
+
+
+print("QUIZ OVER._.")
