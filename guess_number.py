@@ -1,4 +1,4 @@
-secret_guess = 79
+secret_guess = 37
 attempts = 0
 playing = True
 

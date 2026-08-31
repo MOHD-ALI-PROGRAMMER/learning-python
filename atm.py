@@ -7,7 +7,8 @@ if user_pin == pin:
     print("Login successfully")
 
     print("1. Check balance")
-    print("2. Deposit amount")
+    print("2. Deposit amount")mohd_ali@mohd-linux:~$ cd Doc
+
     print("3. Withdraw amount")
 
     choice = int(input("Choose an option: "))

@@ -7,11 +7,11 @@ print("YOUR BMI IS:", round(bmi,2))
 if bmi < 18:
     print("category: underweight")
 
-elif bmi 18.5 - 24.9:
+elif bmi < 24.9:
     print("category: normal/healthy")
 
-elif bmi 25 - 29.9:
+elif bmi < 29.9:
     print("category: overweight")
 
-else bmi 30+:
+else:
     print("category: obesity")
